@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    padding-top:50px;
+}
+.container{
+    width:350px;
+    height:350px;
+    background-color:red;
+    margin:auto;
+    padding:20px 25px;
+}
+.imgbox{
+    width:300px;
+    height:300px;
+    border:1px solid black;
+    position:absolute;
+}
+img{
+    width:275px;
+    height:250px;
+    position:relative;
+    margin:-90px 10px
+}
+.details{
+    width:275px;
+    height:25px;
+    border:1px solid grey;
+    position:relative;
+    margin-top:230px;
+    margin-left:10px;
+}
+h3{
+    position:absolute;
+    margin-top:-85px;
+    margin-left:115px;
+}

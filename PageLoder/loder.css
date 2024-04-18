@@ -1,0 +1,21 @@
+.title{
+    font-family: sans-serif;
+    color: #dc25ed;
+}
+.loader{
+    width:120px;
+    height:120px;
+    border:16px solid #eee;
+    border-radius:50%;
+    border-bottom-color:#3498db;
+    /*border-top-color:#dc25ed;*/
+    animation:spin 2s linear infinite;
+}
+@keyframes spin{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}

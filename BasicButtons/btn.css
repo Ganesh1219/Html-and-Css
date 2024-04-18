@@ -1,0 +1,157 @@
+#youtube {
+    height:30px;
+    width:100px;
+    background-color:rgb(237, 27, 27);
+    color:white;
+    border-radius:2px;
+    cursor: pointer;
+    margin-right:8px;
+    border:none;
+    /* adding transition effect used to tansit smoothly
+    and it takes two values 1.what we want transit and 2.how long transit */
+    transition:opacity 0.15s;
+}
+/* creating hover effet to the buttons */
+#youtube:hover {
+    /* usually the opacity is lies between 0 and 1. */
+    opacity:0.6;
+}
+#youtube:active {
+    opacity:0.4;
+}
+.linkedin {
+    height:30px;
+    width:60px;
+    background-color: rgba(255, 255, 255, 0.891);
+    color:hsl(240, 86%, 58%);
+    border-style:solid;
+    border-radius:2px;
+    border-color:hsl(240, 72%, 59%);
+    cursor: pointer;
+    border-width:1px;
+    transition:background-color 1s,color 1s;
+}
+.linkedin:hover {
+    background-color:hsl(240, 86%, 58%);
+    color:rgba(255, 255, 255, 0.891);
+}
+.linkedin:active {
+    opacity:0.6;
+}
+.tweet {
+    height: 30px;
+    width: 65px;
+    color:white;
+    background-color:rgb(47, 103, 226);
+    border-radius:20px;
+    /* border:none; */
+    border-width:1px;
+    font-weight:bold;
+    font-style:18px;
+    cursor: pointer;
+    margin-left:8px;
+    transition:background-color 1s,color 1s;
+}
+.tweet:hover {
+    background-color:white;
+    color:rgb(47, 103, 226)
+}
+.tweet:active {
+    opacity:0.4;
+}
+.uber {
+    height:32px;
+    width:110px;
+    background-color:black;
+    color:white;
+    border:none;
+    border-radius:2px;
+    cursor: pointer;
+    margin-right:8px;
+    transition:opacity 0.15;
+}
+ .uber:hover {  
+     /* background-color:white;
+    color:black;  */
+    opacity:0.6;
+}*/
+.uber:active {
+    opacity:0.4;
+}
+.amazon {
+    height:36px;
+    width:140px;
+    background-color:rgb(255,216,20);
+    border:none;
+    font-weight:bold;
+    border-radius:20px;
+    cursor: pointer;
+    transition:background-color 1s,color 0.15s;
+}
+.amazon:hover {
+    background-color:black;
+    color:rgb(255,216,20);
+}
+.amazon:active {
+    opacity:0.6;
+}
+.github {
+    height:36px;
+    width:90px;
+    background-color:rgb(46,164,79);
+    border:none;
+    color:white;
+    font-weight:bold;
+    border-radius:3px;
+    margin-left:8px;
+    cursor: pointer;
+    /* applying box-shadow effet
+    syntax:x-axis(horizontal) y-axis(vertical) blur color */
+    /* box-shadow:10px 8px 6px black;  it creats only box-shadow */
+    transition:box-shadow 0.15s;
+}
+/* if you want hover the box-shadow we can place box-shadow into :hover */
+.github:hover {
+    box-shadow:10px 8px 6px black; 
+}
+.bootstrap {
+    height:36px;
+    width: 100px;
+    background-color:rgb(147, 37, 169);
+    border:none;
+    color:white;
+    font-weight:bold;
+    border-radius:3px;
+    margin-right:8px;
+    cursor: pointer;
+}
+.boot {
+    height:36px;
+    width:100px;
+    background-color:rgb(251, 252, 253);
+    border-width:1px;
+    border-radius:3px;
+    cursor: pointer;
+}
+.Linkedin {
+    height:36px;
+    width:200px;
+    background-color:rgb(10,102,194);
+    border:none;
+    color:white;
+    border-radius:20px;
+    cursor: pointer;
+    font-weight:bold;
+    margin-left:8px;
+}
+.lin {
+    height:36px;
+    width:70px;
+    color:rgb(10,102,194);
+    background-color: white;
+    border-color:rgb(10,102,194);
+    border-radius:20px;
+    border-width:1px;
+    font-weight:bold;
+    margin-left:8px;
+}

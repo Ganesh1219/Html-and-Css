@@ -1,0 +1,6 @@
+h1{
+    background:linear-gradient(powderblue 0%,tomato 100%);
+    background-clip:text;
+    color:transparent;
+    font-size: 100px;
+}

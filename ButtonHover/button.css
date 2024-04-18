@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    display: inline-flex;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+}
+.container a{
+    width:200px;
+    height:70px;
+    text-decoration:none;
+    border:1px solid black;
+    color:yellowgreen;
+    font-size:22px;
+    text-align:center;
+    line-height:70px;
+    margin:10px;
+    position:relative;
+}
+.container a span{
+    background:#ff0000;
+    position:absolute;
+    transition:0.8s ease-out;
+    z-index:-1;
+}
+/*hover effect for button 1 */
+.container a:hover{
+    color:white;
+    transition:0.8s;
+}
+.right{
+    width:0px;
+    height:70px;
+    left:0;
+    top:0;
+}
+.container a:hover .right{
+    width:200px;
+    transition:0.8s;
+}
+/*hover effect for button 2 */
+.left{
+    width:0px;
+    height:70px;
+    right:0;
+    top:0;
+}
+.container a:hover .left{
+    width:200px;
+    transition:0.8s;
+}
+/*hover effect for button 3 */
+.top{
+    width:200px;
+    height:0px;
+    right:0;
+    bottom:0;
+}
+.container a:hover .top{
+    height:70px;
+    transition:0.8s;
+}
+/*hover effect for button 4 */
+.bottom{
+    width:200px;
+    height:0px;
+    right:0;
+    top:0;
+}
+.container a:hover .bottom{
+    height:70px;
+    transition:0.8s;
+}
+/*hover effect for button 5 */
+.diagonal{
+    width:0px;
+    height:0px;
+    right:0;
+    bottom:0;
+}
+.container a:hover .diagonal{
+    height:70px;
+    width:200px;
+    transition:0.8s;
+}

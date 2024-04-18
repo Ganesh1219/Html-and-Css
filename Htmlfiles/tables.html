@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>tables</title>
+    <style>
+        /* it adds border to the table and its the css for table */
+        /* border collapse is used to avoid double border in table */
+        /* border-radius property gives the which style border you want */
+        /* if you remove table border from the table we can neglect table from the css of style */
+        /* the border style property gives the appearence of  the table like dotted,dashed,solid,
+        double,groove,ridge,inset,outset,none,hidden */
+        /* border color gives the color of the table border */
+        /* colspan and rowspan are the properties of table it spans the rows and columns */
+        /* table, */tr,td {
+            border:1px solid black;
+            border-collapse:collapse;
+            text-align: center;
+            background-color: aqua;
+            border-radius:70px;
+            border-style:dotted,dashed;
+            border-color: chartreuse;
+        }
+        /* tr{ 
+            color:green;
+        }*/
+    </style>
+</head>
+<body>
+    <!-- table tag creates a table.and tr defines table rows and td means data -->
+    <table style="width: 100%;">
+        <tr style="color:rgb(81, 9, 226);">
+            <td>name</td>
+            <td>Address</td>
+            <td>department</td>
+        </tr>
+        <tr>
+            <td>Ganesh</td>
+            <td>Sattenapalli</td>
+            <td>Mca</td>    
+        </tr>
+        <tr>
+            <td>Mahesh</td>
+            <td>chilakaluripet</td>
+            <td>Mca</td>
+        </tr>
+        <tr>
+            <td>Teja</td>
+            <td>machilipatnam</td>
+            <td>Mca</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    background:rgb(99,99,92);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.main{
+    height:200px;
+    width:200px;
+    border-radius:20px;
+    overflow:hidden;
+    border:5px solid rgb(99,99,92);
+    align-items:center;
+}
+.main img{
+    height:100%;
+    width:100%;
+    border-radius:20px;
+    /*filter:greyscale(100%);*/
+    transition:0.3s ease-in-out;
+    cursor:pointer;
+}
+.main img:hover{
+    transform:scale(1.2);
+    /*filter:greyscale(0);
+    zoom:10%;*/
+}
